@@ -1,0 +1,179 @@
+body {
+    padding:0 10px;
+    margin: 0;
+    font-family: 'Gowun Batang', serif;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    height: 60px;
+}
+
+header span {
+    font-size: 25px;
+    letter-spacing: 6px;
+    margin-left: 15px;
+}
+
+#arrowWrapper {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+}
+
+#arrowWrapper img {
+    box-sizing: border-box;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+#personalInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+main span {
+    margin-top: 10px;
+}
+
+main input {
+    margin: 5px 0;
+    width: 140px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    padding: 4px;
+    font-size: 14px;
+    color: #333;
+    font-family: 'Gowun Batang', serif;
+}
+
+#timeWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.time{
+    width: 60px;
+    border: 1px solid lightgray;
+    text-align: center;
+    border-radius: 2px;
+    margin: 3px 8px;
+}
+
+#personWrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.adult, .kids {
+    margin: 0 10px;
+}
+
+#personWrapper input {
+    text-align: right;
+    width: 60px;
+}
+
+#optionWrapper {
+    width: 100%;
+    padding: 10px 0;
+}
+
+#option{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    border-top: 1px solid lightgray;
+}
+
+#option span{
+    margin: 0;
+    padding: 0;
+}
+
+#option input {
+    width: auto;
+    margin: 0 20px;
+}
+
+
+#save {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #333;
+    color: white;
+}
+
+#popBack{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#popup {
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    width: 85%;
+    height: 70%;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#comment{
+    margin-bottom: 20px;
+}
+
+#confirm, #returnButton{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: lightgray;
+    color: #333;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#returnButton a{
+    text-decoration: none;
+    color: inherit;
+}

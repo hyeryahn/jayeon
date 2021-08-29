@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>방문예약</title>
+    <link rel="stylesheet" type="text/css" href="reservation.css">
+    <script type="text/javascript" src="reservation.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="reserve">
+        <div id="arrowWrapper">
+            <a href="./index.html"><img src="images/left_arrow_black.png" /></a>
+        </div>
+        <div>
+            <span>방문예약</span>
+        </div>
+    </header>
+    <main>
+        <span>고객정보</span>
+        <div id="personalInfo">
+
+            <input type="text" id="name" name="name" minlength="2" maxlength="8" placeholder="이름" required>
+            <input type="text" id="phonenumber" name="phonenumber" minlength="11" maxlength="11"
+                placeholder="연락처('-' 없이 입력)" required>
+        </div>
+        <div id="dateForm">
+        </div>
+
+        <span>시간</span>
+        <div id="timeWrapper"></div>
+
+        <span>인원</span>
+        <div id="personWrapper">
+            <div class="adult">
+                <label id="adult">성인</label>
+                <input id="adultInput" type="number" value='' name="adult" placeholder="0"><span> 명</span>
+            </div>
+            <div class="kids">
+                <label id="kids">유아</label>
+                <input id="kidsInput" type="number" value='' name="kids" placeholder="0"><span> 명</span>
+            </div>
+        </div>
+    </main>
+    <div id="save">
+        <span>예약하기</span>
+    </div>
+</body>
+
+</html>
